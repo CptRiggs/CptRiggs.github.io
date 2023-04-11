@@ -16,7 +16,7 @@ I had a hard time between choosing what wm i wanted, The whole reason i switched
 then i stumbled upon the hyprland, It was amazing, First looks were impressive. So i installed hyprland
 
 ## End Result
-<img src="/images/wayland-experience/screenshot1.png" alt="Screenshot1" width="100%" height="100%" />
+<img src="../../images/wayland-experience/screenshot1.png" alt="Screenshot1" width="100%" height="100%" />
 
 ## Let's get started
 ### Requirements:
