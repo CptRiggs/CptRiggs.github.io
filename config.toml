@@ -1,0 +1,26 @@
+baseURL = 'http://riggs.blog/'
+languageCode = 'en-us'
+title = 'The Riggs Blog'
+
+theme = "nightfall"
+
+[menu]
+  [[menu.header]]
+    name = "post"
+    weight = 0
+    url = "post"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
+[[params.social]]
+key = 0
+name = "gitlab"
+url = "https://gitlab.com/clerick_x"
+icon = "fa fa-gitlab" 
+
+[params]
+author = "clerick_x"
+user = "clerick_x"
+hostname = "TheRiggsBlog"

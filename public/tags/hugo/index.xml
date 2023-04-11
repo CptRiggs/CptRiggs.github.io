@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on The Riggs Blog</title>
+    <link>http://example.org/tags/hugo/</link>
+    <description>Recent content in hugo on The Riggs Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Apr 2023 02:30:00 +0530</lastBuildDate><atom:link href="http://example.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up a hugo site</title>
+      <link>http://example.org/post/setting-up-a-hugo-site/</link>
+      <pubDate>Wed, 12 Apr 2023 02:30:00 +0530</pubDate>
+      
+      <guid>http://example.org/post/setting-up-a-hugo-site/</guid>
+      <description>This is the first blog of this page. So i&amp;rsquo;ve decided to make the first one about setting up hugo to be honest it required me tinkering a little but but it should be easy for the most of us, This was made as an experiment to see if the blogging would be a good lifestyle
+Installing hugo pacman -S hugo Themes So here when it comes to themes just go to the hugo&amp;rsquo;s theme page and pick a theme after that execute this command</description>
+    </item>
+    
+  </channel>
+</rss>
