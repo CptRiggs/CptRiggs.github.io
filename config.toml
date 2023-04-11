@@ -24,3 +24,6 @@ icon = "fa fa-gitlab"
 author = "clerick_x"
 user = "clerick_x"
 hostname = "TheRiggsBlog"
+
+[markup.goldmark.renderer]
+unsafe= true
