@@ -17,12 +17,12 @@ theme = "nightfall"
 [[params.social]]
 key = 0
 url = "https://gitlab.com/clerick_x"
-icon = "fa fa-gitlab"
+icon = "fa fa-gitlab fa-lg"
 
 [[params.social]]
 key = 1
 url = "https://www.reddit.com/user/clerick_x"
-icon = "fa fa-reddit"
+icon = "fa fa-reddit fa-lg"
 
 [params]
 author = "clerick_x"
