@@ -3,7 +3,7 @@
         {{ range sort .Site.Params.social "key"}}
         <li>
             {{ if isset . "icon" }}
-                <a href="{{ .url | safeURL }}" aria-hidden="true" title="{{ .name }}">
+                <a href="{{ .url | safeURL }}" aria-hidden="true" target="_blank" title="{{ .name }}">
                     <i class="{{ .icon }}"></i>
                 </a>
             {{ else }}
