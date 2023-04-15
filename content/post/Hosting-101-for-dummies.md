@@ -60,7 +60,7 @@ ssh -R {vpsport}:localhost:{localport} {vpsusername}@{vpshostname}
 ```
 To connect to this server grab the VPS ip and use the VPS port
 
-### Method 3: Port Forwarding
+### Method 4: Port Forwarding
 This is a really easy thing to do i will walk you thru the steps, First open the router page usually it's 192.168.1.1, Just know
 the router settings might be completely different for you depending on the router but here is how it should be mostly, In there
 just tap on firewall and head to portforwarding, Now comes the tricky part if you are in windows type `ipconfig` in the terminal it
