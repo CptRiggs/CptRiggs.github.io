@@ -16,16 +16,21 @@ theme = "nightfall"
 
 [[params.social]]
 key = 0
+url = "https://github.com/CaptialState"
+icon = "fa-brands fa-github fa-xl"
+
+[[params.social]]
+key = 1
 url = "https://gitlab.com/clerick_x"
 icon = "fa-brands fa-gitlab fa-xl"
 
 [[params.social]]
-key = 1
+key = 2
 url = "https://www.reddit.com/user/clerick_x"
 icon = "fa-brands fa-reddit fa-xl"
 
 [[params.social]]
-key = 2
+key = 3
 url = "https://discordapp.com/users/735550905721684098"
 icon = "fa-brands fa-discord fa-xl"
 
