@@ -41,5 +41,23 @@ avatarURL = "https://cdn.discordapp.com/avatars/735550905721684098/a9ea9456b6eb7
 hostname = "TheRiggsBlog"
 description = "This is my personal website were i blog about stuff"
 
+
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'onedark'
+    tabWidth = 4
+
 [markup.goldmark.renderer]
 unsafe= true
