@@ -17,16 +17,22 @@ theme = "nightfall"
 [[params.social]]
 key = 0
 url = "https://gitlab.com/clerick_x"
-icon = "fa fa-gitlab fa-lg"
+icon = "fa-brands fa-gitlab fa-xl"
 
 [[params.social]]
 key = 1
 url = "https://www.reddit.com/user/clerick_x"
-icon = "fa fa-reddit fa-lg"
+icon = "fa-brands fa-reddit fa-xl"
+
+[[params.social]]
+key = 2
+url = "https://discordapp.com/users/735550905721684098"
+icon = "fa-brands fa-discord fa-xl"
 
 [params]
 author = "clerick_x"
 user = "clerick_x"
+avatarURL = "https://cdn.discordapp.com/avatars/735550905721684098/a9ea9456b6eb700d52e18695fbd1e24f.png?size=256"
 hostname = "TheRiggsBlog"
 description = "This is my personal website were i blog about stuff"
 

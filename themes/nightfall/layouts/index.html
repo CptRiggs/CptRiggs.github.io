@@ -19,6 +19,7 @@
             <main class="main">
                 <div class="indexWrapper">
                     <div>
+                        <img class="avatarImage" src="{{ .Site.Params.avatarURL }}">
                         <h1 class="indexHeader">{{ .Site.Params.author }}</h1>
                     </div>
                     {{ partial "social.html" . }}
