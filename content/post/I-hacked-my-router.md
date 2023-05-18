@@ -11,6 +11,8 @@ I have a old and crappy router which doesn't even support 5 Ghz, Which wouldn't 
 the dhcp pool and lan ip to the 10 ranges, Meaning it went from 192.168.1.1 to 10.0.0.1, Which worked but the VoIP went down after
 a month
 
+<!--more-->
+
 ## Summary
 Pretty much what happened was i managed to change the DHCP pool but the repair man who came to repair tech was mad at me for changing it
 he was a bit rude about it and revoked my access, Before this it wasn't the default router password he changed it to something custom 

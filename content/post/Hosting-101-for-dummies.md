@@ -10,6 +10,8 @@ tags = [
 This is hosting 101 for dummies who haven't hosted anything before, By the end of this guide you will know how to properly
 setup a server for games. I will not be covering any hosting services here and this is a guide about hosting it locally
 
+<!--more-->
+
 ## Basic networking
 Starting off with the most basic part of networking IP addresses
 

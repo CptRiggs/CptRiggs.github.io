@@ -11,6 +11,8 @@ This is my first time trying out wayland, I've heard that it's fast and lightwei
 everytime i tried the x11 side of things such as awesomewm it all seemed way too complex for me so i simply decided to use
 wayland after some research, Let's see how it goes
 
+<!--more-->
+
 ## The Choice
 I had a hard time between choosing what wm i wanted, The whole reason i switched to wayland was to simply try out all the options
 then i stumbled upon the hyprland, It was amazing, First looks were impressive. So i installed hyprland

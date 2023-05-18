@@ -11,6 +11,8 @@ This is the first blog of this page. So i've decided to make the first one about
 to be honest it required me tinkering a little but but it should be easy for the most of us, This 
 was made as an experiment to see if the blogging would be a good lifestyle
 
+<!--more-->
+
 ### Installing hugo
 ```
 pacman -S hugo

@@ -10,6 +10,8 @@ tags = [
 
 This blog explains how discord's token system works and discord's systems in general
 
+<!--more-->
+
 ### Discord's basic systems
 First we have the gateway, A websocket which is used for recieving events. The Rest API which is used to send requests to discord. So now that we have a
 basic understanding of what this is let's start with the actual topic about discord's token logging issue
