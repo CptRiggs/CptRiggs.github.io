@@ -6,9 +6,9 @@ theme = "nightfall"
 
 [menu]
   [[menu.header]]
-    name = "post"
+    name = "posts"
     weight = 0
-    url = "post"
+    url = "posts"
   [[menu.header]]
     name = "about"
     weight = 1
