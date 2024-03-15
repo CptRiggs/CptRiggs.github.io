@@ -1,0 +1,32 @@
+@import url("colors.css");
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.postItem {
+    border-left: 2px solid white;
+    padding: 15px;
+}
+
+.postItem a {
+    transition: 0.5s;
+}
+
+.postItem:hover a {
+    padding-left: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 15px;
+}
+
+ul a {
+    text-decoration: none;
+    color: var(--text);
+}

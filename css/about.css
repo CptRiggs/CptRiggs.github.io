@@ -1,0 +1,20 @@
+.socials {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+}
+
+.svg {
+    width: 44px;
+}
+
+.socials p {
+    padding-left: 20px;
+}
+
+.discord, .instagram, .github {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}

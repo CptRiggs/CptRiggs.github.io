@@ -1,3 +1,0 @@
-+++
-author = "clerick_x"
-+++
