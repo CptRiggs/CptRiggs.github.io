@@ -4,7 +4,7 @@
   "description": "The riggs blog",
   "main": "index.js",
   "scripts": {
-    "build": "env NODE_ENV=production npx eleventy --pathprefix 'blog'",
+    "build": "eleventy",
     "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy",
     "test": "jest"
