@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Setting up a hugo site</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/post.css">
+    <meta name="view-transition" content="same-origin" />
+    <style> #nav-blog2 { text-decoration: underline; } </style>
+</head>
+<body>
+    <div class="flexWrapper">
+        <div class="navbar">
+            <a>TheRiggsBlog</a>
+            <div class="links">
+                <a id="nav-home" href="/">Home</a>
+                <a id="nav-about" href="/about">About Me</a>
+                <a id="nav-proj" href="">Projects</a>
+                <a id="nav-blog" href="/blog">Blog</a>
+            </div>
+            <div class="slider">
+                <a href="">Dark</a>
+            </div>
+        </div>
+        <div class="body">
+            <p>This is the first blog of this page. So i've decided to make the first one about setting up hugo
+to be honest it required me tinkering a little but but it should be easy for the most of us, This
+was made as an experiment to see if the blogging would be a good lifestyle</p>
+<!--more-->
+<h3>Installing hugo</h3>
+<pre><code>pacman -S hugo
+</code></pre>
+<h3>Themes</h3>
+<p>So here when it comes to themes just go to the hugo's theme page and pick a theme after that execute this command</p>
+<pre><code>git submodule add {theme.git} themes/{theme_name}
+</code></pre>
+<h3>Config</h3>
+<p>Edit the config.toml and add these lines</p>
+<pre><code>theme = &quot;{theme_name}&quot;
+</code></pre>
+<p>You are all set!, Now all you have to do is create a post</p>
+<pre><code>hugo new post/{post_name}.md
+</code></pre>
+<h3>Creating the static site to be uploaded on github/gitlab</h3>
+<pre><code>hugo
+</code></pre>
+<p>The site will be generated at /public at the project root</p>
+
+        </div>
+    </div>
+</body>
+</html>
