@@ -26,3 +26,20 @@ body {
     width: 90%;
     padding-top: 6%;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
