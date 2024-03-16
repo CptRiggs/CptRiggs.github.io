@@ -1,12 +1,13 @@
 ---
 author: "clerick_x"
 title: 'I "Hacked" My Router'
-date: 2023-04-14T23:49:06+05:30
+date: "2023-04-14T23:49:06+05:30"
+description: 'Experience with “hacking” the ISP provided router'
 layout: post.njk
 tags: [
-    post,
-    markdown,
-    text,
+    "post",
+    "markdown",
+    "text",
 ]
 ---
 I have a old and crappy router which doesn't even support 5 Ghz, Which wouldn't be a problem but a few months back i had to change

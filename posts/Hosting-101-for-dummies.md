@@ -2,7 +2,7 @@
 author: "clerick_x"
 title: "Hosting 101 for Dummies"
 date: "2023-04-16T03:18:30+05:30"
-description: "Lorem Ipsum Dolor Si Amet"
+description: "A complete guide on hosting for newbies"
 layout: post.njk
 tags: [
     "post",

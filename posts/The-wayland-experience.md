@@ -2,6 +2,7 @@
 author: "clerick_x"
 title: "The wayland experience"
 date: "2023-04-12T03:50:36+05:30"
+description: "The switch to wayland as an X user of 3 years"
 layout: post.njk
 tags: [
     "post",

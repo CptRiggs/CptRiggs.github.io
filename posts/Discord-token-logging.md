@@ -2,6 +2,7 @@
 author: "clerick_x"
 title: "Discord Token Logging"
 date: "2023-05-02T19:33:52+05:30"
+description: "Rise of discord token loggers, and prevention"
 layout: post.njk
 tags: [
     "post",
@@ -9,10 +10,6 @@ tags: [
     "chatting",
 ]
 ---
-
-This blog explains how discord's token system works and discord's systems in general
-
-<!--more-->
 
 ### Discord's basic systems
 First we have the gateway, A websocket which is used for recieving events. The Rest API which is used to send requests to discord. So now that we have a

@@ -2,6 +2,7 @@
 author: "clerick_x"
 title: "Setting up a hugo site"
 date: "2023-04-12T02:30:00+05:30"
+description: "My first blog on setting up a hugo site"
 layout: post.njk
 tags: [
     "post",
