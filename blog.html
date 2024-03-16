@@ -6,7 +6,7 @@
     <title>TheRiggsBlog</title>
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/navbar.css' | url }}">
-    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="{{ '/css/blog.css' | url }}">
     <meta name="view-transition" content="same-origin" />
     <style> #nav-blog { text-decoration: underline; } </style>
 </head>
@@ -25,14 +25,28 @@
             </div>
         </div>
         <div class="body">
-            <div style="width:50%;">
+            <div style="width:42%;">
+                <h>Blog</h>
                 <ul>
-                    {%- for post in collections.post -%}
+                    {%- for post in collections.post reversed -%}
                     <li>
-                        <div class="postItem">
-                            <a href="{{ post.url }}">{{ post.data.title }}</a>
-                        </div>
-                        <a href="{{ post.url }}"
+                        <a href="{{ post.url }}">
+                            <div class="postItem">
+                                <div class="date">{{ post.date | asPostDate }}</div>
+                                <div class="vl"></div>
+                                <div class="postDesc">
+                                    <p>{{ post.data.title }}</p>
+                                    <div class="desc">{{ post.data.description }}</div>
+                                    <div class="tags">
+                                        <ul>
+                                            {%- for tag in post.data.tags -%}
+                                            <li>{{ tag if tag != "post" }}</li>
+                                            {%- endfor -%}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </li>
                     {%- endfor -%}
                 </ul>

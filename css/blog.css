@@ -1,21 +1,23 @@
 @import url("colors.css");
 
 .body {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.postItem {
-    border-left: 2px solid white;
-    padding: 15px;
+a {
+    text-decoration: none;
+    color: var(--text);
 }
 
-.postItem a {
-    transition: 0.5s;
+p {
+    font-family: 'Space Grotesk';
+    margin: 8px 0;
 }
 
-.postItem:hover a {
-    padding-left: 15px;
+.vl {
+    border-left: 2px solid var(--text);
+    margin: 0 20px;
+    transition: all 0.5s;
 }
 
 ul {
@@ -23,10 +25,52 @@ ul {
 }
 
 li {
-    padding: 15px;
+    display: flex;
+    margin: 5% 0;
 }
 
-ul a {
-    text-decoration: none;
+.postItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.postDesc {
+    display: flex;
+    flex-direction: column;
+}
+
+.desc {
+    font-size: 20px;
+    color: var(--muted);
+}
+
+.tags ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tags ul li:first-child {
+    display: none;
+}
+
+.tags li {
+    margin: 10px 5px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 2px solid var(--text);
+    background-color: transparent;
     color: var(--text);
+    font-size: 20px;
+}
+
+.date {
+    font-family: 'Space Grotesk';
+    width: 4em;
+}
+
+li a:hover .vl {  
+    transform: scaleY(0.5);
 }
