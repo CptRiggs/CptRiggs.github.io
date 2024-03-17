@@ -1,28 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include "partials/_head.njk" %}
     <title>TheRiggsBlog</title>
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/navbar.css' | url }}">
-    <meta name="view-transition" content="same-origin" />
     <style> #nav-home { text-decoration: underline; } </style>
 </head>
 <body>
     <div class="flexWrapper">
-        <div class="navbar">
-            <a>TheRiggsBlog</a>
-            <div class="links">
-                <a id="nav-home" href="/">Home</a>
-                <a id="nav-about" href="{{ '/about' | url }}">About Me</a>
-                <a id="nav-proj" href="">Projects</a>
-                <a id="nav-blog" href="{{ '/blog' | url }}">Blog</a>
-            </div>
-            <div class="slider">
-                <a href="">Dark</a>
-            </div>
-        </div>
+        {% include "partials/_navbar.njk" %}
         <div class="body">
             <div class="indextext">
                 <h>Welcome! :)</h>
