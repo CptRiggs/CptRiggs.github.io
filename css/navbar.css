@@ -1,22 +1,22 @@
 @import url("colors.css");
 
 .navbar {
-    display: flex;
-    font-family: 'Space Grotesk';
-    font-size: 18px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    width: 98%;
+  display: flex;
+  font-family: 'Space Grotesk';
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 98%;
 }
 
 .navbar a {
-    text-decoration: none;
-    color: var(--text);
-    padding-left: 10px;
-    padding-right: 10px;
+  text-decoration: none;
+  color: var(--text);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .links {
-    view-transition-name: navbar;
+  view-transition-name: navbar;
 }

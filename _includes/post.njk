@@ -5,17 +5,17 @@ title: blog
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% include "partials/_head.njk" %}
-    <title>Blog | {{ title }}</title>
-    <link rel="stylesheet" href="/css/post.css">
-    <style> #nav-blog2 { text-decoration: underline; } </style>
+  {% include "partials/_head.njk" %}
+  <title>Blog | {{ title }}</title>
+  <link rel="stylesheet" href="/css/post.css">
+  <style> #nav-blog2 { text-decoration: underline; } </style>
 </head>
 <body>
-    <div class="flexWrapper">
-        {% include "partials/_navbar.njk" %}
-        <div class="body">
-            {{ content | safe }}
-        </div>
+  <div class="flexWrapper">
+    {% include "partials/_navbar.njk" %}
+    <div class="body">
+      {{ content | safe }}
     </div>
+  </div>
 </body>
 </html>

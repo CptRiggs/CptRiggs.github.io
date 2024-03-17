@@ -1,18 +1,18 @@
 @import url("colors.css");
 
 .body {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 75%;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75%;
 }
 
 a {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 pre {
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 18px;
-    border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 1px solid white;
 }

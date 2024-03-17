@@ -1,76 +1,76 @@
 @import url("colors.css");
 
 .body {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 a {
-    text-decoration: none;
-    color: var(--text);
+  text-decoration: none;
+  color: var(--text);
 }
 
 p {
-    font-family: 'Space Grotesk';
-    margin: 8px 0;
+  font-family: 'Space Grotesk';
+  margin: 8px 0;
 }
 
 .vl {
-    border-left: 2px solid var(--text);
-    margin: 0 20px;
-    transition: all 0.5s;
+  border-left: 2px solid var(--text);
+  margin: 0 20px;
+  transition: all 0.5s;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 li {
-    display: flex;
-    margin: 5% 0;
+  display: flex;
+  margin: 5% 0;
 }
 
 .postItem {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .postDesc {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .desc {
-    font-size: 20px;
-    color: var(--muted);
+  font-size: 20px;
+  color: var(--muted);
 }
 
 .tags ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .tags ul li:first-child {
-    display: none;
+  display: none;
 }
 
 .tags li {
-    margin: 10px 5px;
-    padding: 2px 5px;
-    border-radius: 5px;
-    border: 2px solid var(--text);
-    background-color: transparent;
-    color: var(--text);
-    font-size: 20px;
+  margin: 10px 5px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  border: 2px solid var(--text);
+  background-color: transparent;
+  color: var(--text);
+  font-size: 20px;
 }
 
 .date {
-    font-family: 'Space Grotesk';
-    width: 4em;
+  font-family: 'Space Grotesk';
+  width: 4em;
 }
 
-li a:hover .vl {  
-    transform: scaleY(0.5);
+li a:hover .vl {
+  transform: scaleY(0.5);
 }

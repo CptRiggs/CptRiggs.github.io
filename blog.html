@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% include "partials/_head.njk" %}
-    <title>TheRiggsBlog</title>
-    <link rel="stylesheet" href="{{ '/css/blog.css' | url }}">
-    <style> #nav-blog { text-decoration: underline; } </style>
+  {% include "partials/_head.njk" %}
+  <title>TheRiggsBlog</title>
+  <link rel="stylesheet" href="{{ '/css/blog.css' | url }}">
+  <style> #nav-blog { text-decoration: underline; } </style>
 </head>
 <body>
-    <div class="flexWrapper">
-        {% include "partials/_navbar.njk" %}
-        <div class="body">
-            <div style="width:42%;">
-                <h>Blog</h>
-                <ul>
-                    {%- for post in collections.post reversed -%}
-                    <li>
-                        <a href="{{ post.url }}">
-                            <div class="postItem">
-                                <div class="date">{{ post.date | asPostDate }}</div>
-                                <div class="vl"></div>
-                                <div class="postDesc">
-                                    <p>{{ post.data.title }}</p>
-                                    <div class="desc">{{ post.data.description }}</div>
-                                    <div class="tags">
-                                        <ul>
-                                            {%- for tag in post.data.tags -%}
-                                            <li>{{ tag if tag != "post" }}</li>
-                                            {%- endfor -%}
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    {%- endfor -%}
-                </ul>
-            </div>
-        </div>
+  <div class="flexWrapper">
+    {% include "partials/_navbar.njk" %}
+    <div class="body">
+      <div style="width:42%;">
+        <h>Blog</h>
+        <ul>
+          {%- for post in collections.post reversed -%}
+          <li>
+            <a href="{{ post.url }}">
+              <div class="postItem">
+                <div class="date">{{ post.date | asPostDate }}</div>
+                <div class="vl"></div>
+                <div class="postDesc">
+                  <p>{{ post.data.title }}</p>
+                  <div class="desc">{{ post.data.description }}</div>
+                  <div class="tags">
+                    <ul>
+                      {%- for tag in post.data.tags -%}
+                      <li>{{ tag if tag != "post" }}</li>
+                      {%- endfor -%}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+          {%- endfor -%}
+        </ul>
+      </div>
     </div>
+  </div>
 </body>
 </html>
