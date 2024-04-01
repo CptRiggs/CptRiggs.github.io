@@ -18,6 +18,22 @@ body {
   width: 30%;
 }
 
+.greeter {
+  display: flex;
+  justify-content: start;
+}
+
+@keyframes blink {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0;}
+}
+
+.blink {
+  border-left: 3px solid var(--text);
+  margin-left: 6px;
+  animation: blink 1s step-start infinite;
+}
+
 .body {
   display: flex;
   align-items: center;

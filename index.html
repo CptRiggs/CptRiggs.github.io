@@ -4,13 +4,17 @@
   {% include "partials/_head.njk" %}
   <title>TheRiggsBlog</title>
   <style> #nav-home { text-decoration: underline; } </style>
+  <script src="{{ '/scripts/index.js' | url }}"></script>
 </head>
-<body>
+<body onload="typeWriter()">
   <div class="flexWrapper">
     {% include "partials/_navbar.njk" %}
     <div class="body">
       <div class="indextext">
-        <h>Welcome! :)</h>
+        <div class="greeter">
+          <h id="head">Welcome! :)</h>
+          <div class="blink"></div>
+        </div>
         <p>This is TheRiggsBlog, my personal website where I post about my experiences with technology. Check out [my work] or [learn more about me].</p>
       </div>
       <div class="graphic">

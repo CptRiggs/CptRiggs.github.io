@@ -4,7 +4,8 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css/");
     eleventyConfig.addPassthroughCopy("images/");
-    eleventyConfig.addPassthroughCopy("graphic/");
+    eleventyConfig.addPassthroughCopy("graphic/")
+    eleventyConfig.addPassthroughCopy("scripts/");
     eleventyConfig.addPlugin(syntaxHighlight);
 
     eleventyConfig.addFilter("asPostDate", (dateObj) => {
