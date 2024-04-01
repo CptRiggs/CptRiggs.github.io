@@ -8,6 +8,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: var(--accent);
+}
+
 .flexWrapper {
   display: flex;
   align-items: center;
@@ -21,6 +26,7 @@ body {
 .greeter {
   display: flex;
   justify-content: start;
+  height: 41px;
 }
 
 @keyframes blink {
