@@ -18,49 +18,7 @@
         </div>
         <p>This is TheRiggsBlog, my personal website where I post about my experiences with technology. Check out <a href="https://github.com/CaptialState/" target="_blank">[my work]</a> or <a href="{{ '/about' | url }}">[learn more about me]</a>.</p>
       </div>
-      <div class="graphic">
-        <svg width="564" height="555" viewBox="0 0 564 555" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g filter="url(#blur)">
-            <path id="blob1"
-              d="M405.777 40.7164C447.843 45.9935 482.374 83.1574 493.509 125.935C504.531 168.713 492.047 217.105 498.683 269.426C505.319 321.747 531.188 377.886 522.078 424.032C512.967 470.291 468.989 506.444 420.287 513.63C371.585 520.703 318.159 498.697 271.931 486.234C225.703 473.771 186.786 470.852 162.379 449.632C138.084 428.524 128.299 389.114 109.628 355.431C90.8444 321.747 63.0628 293.678 49.4532 257.749C35.8436 221.82 36.2935 178.032 54.9645 144.124C73.6355 110.329 110.415 86.3012 148.432 78.6663C186.337 71.0314 225.591 79.5645 269.906 70.6946C314.222 61.8246 363.711 35.3271 405.777 40.7164Z"
-              fill="url(#linear_gradient)" />
-          </g>
-          <g filter="url(#blur)" style="visibility: hidden;">
-            <path id="blob2"
-              d="M335.802 108.269C370.402 129.769 414.402 133.669 441.702 155.669C469.102 177.569 479.802 217.569 488.402 262.569C497.102 307.569 503.702 357.569 479.402 384.669C455.002 411.869 399.802 416.069 356.502 425.969C313.202 435.769 281.802 451.169 253.702 445.669C225.502 440.169 200.502 413.869 176.402 392.969C152.302 371.969 129.102 356.569 101.102 334.869C73.1021 313.269 40.3021 285.369 40.0021 257.369C39.7021 229.369 71.9021 201.269 95.9021 172.669C119.902 144.069 135.702 115.069 160.102 87.6693C184.502 60.2693 217.502 34.3692 246.702 41.0692C275.802 47.6692 301.202 86.7692 335.802 108.269Z"
-              fill="url(#linear_gradient)" />
-          </g>
-          <g filter="url(#blur)" style="visibility: hidden;">
-            <path id="blob2"
-              d="M370.964 70.4472C401.764 84.7472 427.764 111.147 434.964 142.147C442.264 173.247 430.764 208.847 440.764 250.247C450.764 291.747 482.064 338.847 481.964 382.147C481.764 425.447 450.064 464.947 409.164 466.347C368.364 467.747 318.364 431.147 273.764 421.747C229.164 412.347 190.064 430.247 160.164 422.447C130.264 414.747 109.664 381.347 86.7636 347.447C63.8636 313.547 38.5636 279.047 40.0636 245.347C41.4636 211.747 69.6636 178.847 90.8636 142.047C112.164 105.247 126.464 64.4472 154.964 48.7472C183.364 32.9472 225.864 42.2472 265.064 48.0472C304.164 53.8472 340.064 56.0472 370.964 70.4472Z"
-              fill="url(#linear_gradient)" />
-          </g>
-          <defs>
-            <filter id="blur" x="0" y="0" width="564" height="555" filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-              <feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_92_4" />
-            </filter>
-            <linearGradient id="linear_gradient" x1="358.755" y1="4.26252e-06" x2="125.245" y2="475"
-              gradientUnits="userSpaceOnUse">
-              <stop stop-color="#FF00B8" />
-              <stop offset="1" stop-color="#731EFF" />
-            </linearGradient>
-          </defs>
-        </svg>
-      </div>
-      <script>
-        KUTE.fromTo('#blob1', 
-          {path: '#blob1'},
-          {path: '#blob2'},
-          {
-            repeat: 9999,
-            duration: 9000,
-            yoyo: true
-          }
-        ).start();
-      </script>
+      {% include "partials/_graphic.njk" %}
   	</div>
 	</div>
 </body>
