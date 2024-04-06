@@ -42,8 +42,8 @@
 </div>
 <script>
   let graphics = ["graphic", "graphic1"]
-  let graphic = document.getElementsByClassName(graphics[parseInt(Math.random(graphics.length) * 2)])[0]
-  graphic.style.display = "flex";
+  let graphic = graphics[parseInt(Math.random(graphics.length) * 2)]
+  document.getElementsByClassName(graphic)[0].style.display = "flex";
   if (graphic == "graphic") {
     KUTE.fromTo('#blob1', 
       {path: '#blob1'},
