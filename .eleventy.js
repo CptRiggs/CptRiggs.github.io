@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("images/");
     eleventyConfig.addPassthroughCopy("graphic/")
     eleventyConfig.addPassthroughCopy("scripts/");
+    eleventyConfig.addPassthroughCopy(".well-known/");
     eleventyConfig.addPlugin(syntaxHighlight);
 
     eleventyConfig.addFilter("asPostDate", (dateObj) => {
