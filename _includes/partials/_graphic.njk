@@ -30,49 +30,15 @@
     </defs>
   </svg>
 </div>
-<div class="graphic1" style="display: none; width: 400; height: 500">
-  <svg width="518" height="525" viewBox="0 0 518 525" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g filter="url(#blur)">
-      <path id="ring1" style="stroke-linejoin: round; stroke-linecap: round;" d="M428.949 109.767C471.772 147.679 502.082 191.307 510.541 237.343C518.824 283.529 505.607 332.122 479.526 378.007C453.444 423.892 414.675 467.219 362.688 486.175C310.702 505.281 245.675 500.166 192.631 478.503C139.411 456.989 98.3502 418.927 63.9863 374.547C29.4461 330.015 1.77872 279.166 5.30322 228.015C8.82773 176.865 43.7204 125.263 93.9446 88.5547C143.993 51.6962 209.548 29.7316 269.994 34.6962C330.439 39.8112 385.95 71.8556 428.949 109.767Z" stroke="#606060" stroke-width="10"/>
-      <path id="bgri1" style="stroke-linejoin: round; stroke-linecap: round;" d="M402.171 58.5341C440.687 98.7593 463.335 161.851 465.776 222.773C468.217 283.695 450.451 342.614 424.005 391.686C397.56 440.757 362.434 480.315 320.256 501.345C278.214 522.543 229.12 525.38 179.483 511.36C129.982 497.172 79.9386 466.127 53.764 415.554C27.725 364.98 25.6907 294.878 39.2527 233.122C52.9503 171.532 82.2441 118.121 120.76 77.8956C159.412 37.6704 207.15 10.6311 258.143 5.7907C309.271 0.950325 363.655 18.3089 402.171 58.5341Z" stroke="#E4ECF3" stroke-width="10"/>
-      <path id="ring2" style="visibility: hidden; stroke-linejoin: round; stroke-linecap: round;" d="M401.531 105.363C447.016 140.592 484.398 183.56 502.076 235.087C519.571 286.615 517.361 346.867 485.871 388.353C454.198 430.003 393.244 452.721 331.37 472.641C269.496 492.56 206.516 509.846 152.745 496.017C98.789 482.354 53.8565 437.74 29.3646 388.188C4.68853 338.636 0.453093 284.145 9.10812 230.313C17.7632 176.316 39.4928 122.978 81.4789 87.254C123.465 51.3658 186.076 33.0924 244.083 37.7019C302.274 42.3114 356.046 69.9684 401.531 105.363Z" stroke="#606060" stroke-width="10"/>
-      <path id="bgri2" style="visibility: hidden; stroke-linejoin: round; stroke-linecap: round;" d="M395.128 65.7294C431.104 99.5388 456.178 150.495 468.307 207.599C480.298 264.865 479.208 328.278 458.359 385.22C437.645 442.162 397.309 492.634 348.932 511.237C300.419 529.84 243.866 516.737 193.445 491.501C143.161 466.104 99.145 428.574 72.4357 377.293C45.7263 326.175 36.3235 261.306 43.1371 197.084C50.087 133.025 73.2533 69.7735 113.045 36.773C152.973 3.77244 209.526 1.18416 261.036 8.14016C312.684 15.2579 359.289 31.92 395.128 65.7294Z" stroke="#E4ECF3" stroke-width="10"/>
-    </g>
-  </svg>    
-</div>
 <script>
-  let graphics = ["graphic", "graphic1"]
-  let graphic = graphics[parseInt(Math.random(graphics.length) * 2)]
-  document.getElementsByClassName(graphic)[0].style.display = "flex";
-  if (graphic == "graphic") {
-    KUTE.fromTo('#blob1', 
-      {path: '#blob1'},
-      {path: '#blob2'},
-      {
-        repeat: 9999,
-        duration: 9000,
-        yoyo: true
-      }
-    ).start();
-  } else {
-    document.getElementsByClassName("graphic1")[0].style.width = "500px";
-    KUTE.fromTo('#ring1', 
-      {path: '#ring1'},
-      {path: '#ring2'},
-      {
-        repeat: 9999,
-        duration: 2500,
-        yoyo: true
-      }
-    ).start();
-    KUTE.fromTo('#bgri1', 
-      {path: '#bgri1'},
-      {path: '#bgri2'},
-      {
-        repeat: 9999,
-        duration: 2500,
-        yoyo: true
-      }
-    ).start();
-  }
+  document.getElementsByClassName("graphic")[0].style.display = "flex";
+  KUTE.fromTo('#blob1',
+    {path: '#blob1'},
+    {path: '#blob2'},
+    {
+      repeat: 9999,
+      duration: 9000,
+      yoyo: true
+    }
+  ).start();
 </script>
