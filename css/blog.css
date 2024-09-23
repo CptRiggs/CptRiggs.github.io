@@ -38,6 +38,7 @@ li {
 .postDesc {
   display: flex;
   flex-direction: column;
+  transition: all 0.5s;
 }
 
 .desc {
@@ -73,4 +74,8 @@ li {
 
 li a:hover .vl {
   transform: scaleY(0.5);
+}
+
+li a:hover .postDesc {
+  padding-left: 20px;
 }
