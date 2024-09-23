@@ -28,9 +28,10 @@
                     <div class="desc">{{ post.data.description }}</div>
                     <div class="tags">
                       <ul>
-                        {%- for tag in post.data.tags -%}
-                        <li>{{ tag if tag != "post" }}</li>
-                        {%- endfor -%}
+                        {%- for tag in post.data.tags -%} {%- if tag != 'post'
+                        -%}
+                        <li>{{ tag }}</li>
+                        {%- endif -%} {%- endfor -%}
                       </ul>
                     </div>
                   </div>

@@ -53,10 +53,6 @@ li {
   padding: 0;
 }
 
-.tags ul li:first-child {
-  display: none;
-}
-
 .tags li {
   margin: 10px 5px;
   padding: 2px 5px;
