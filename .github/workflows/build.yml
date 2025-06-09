@@ -41,14 +41,14 @@ jobs:
       - name: Install dependencies & build
         run: |
           npm ci
-          npm run build          
+          npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          
+
   deploy:
     environment:
       name: github-pages
